@@ -8,5 +8,20 @@
     "express": "^4.17.1",
     "hbs": "^4.1.2",
     "requests": "^0.3.0"
-  }
+  },
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parteek10/todayWeather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parteek10/todayWeather/issues"
+  },
+  "homepage": "https://github.com/parteek10/todayWeather#readme",
+  "description": ""
 }
