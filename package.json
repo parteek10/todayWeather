@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node src/app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "requests": "^0.3.0"
+  }
+}
